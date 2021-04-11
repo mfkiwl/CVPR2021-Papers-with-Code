@@ -18,8 +18,12 @@ CVPR 2021 中奖群已成立！已经收录的同学，可以添加微信：**CV
 - [VAE](#VAE)
 - [Visual Transformer](#Visual-Transformer)
 - [Regularization](#Regularization)
+- [SLAM](#SLAM)
+- [长尾分布(Long-Tailed)](#Long-Tailed)
+- [数据增广(Data Augmentation)](#DA)
 - [无监督/自监督(Self-Supervised)](#Un/Self-Supervised)
 - [半监督(Semi-Supervised)](#Semi-Supervised)
+- [胶囊网络(Capsule Network)](#Capsule-Network)
 - [2D目标检测(Object Detection)](#Object-Detection)
 - [单/多目标跟踪(Object Tracking)](#Object-Tracking)
 - [语义分割(Semantic Segmentation)](#Semantic-Segmentation)
@@ -28,6 +32,7 @@ CVPR 2021 中奖群已成立！已经收录的同学，可以添加微信：**CV
 - [医学图像分割(Medical Image Segmentation)](#Medical-Image-Segmentation)
 - [交互式视频目标分割(Interactive-Video-Object-Segmentation)](#IVOS)
 - [显著性检测(Saliency Detection)](#Saliency-Detection)
+- [伪装物体检测(Camouflaged Object Detection)](#Camouflaged-Object-Detection)
 - [行人搜索(Person Search)](#Person-Search)
 - [视频理解/行为识别(Video Understanding)](#Video-Understanding)
 - [人脸识别(Face Recognition)](#Face-Recognition)
@@ -36,20 +41,30 @@ CVPR 2021 中奖群已成立！已经收录的同学，可以添加微信：**CV
 - [Deepfake检测(Deepfake Detection)](#Deepfake-Detection)
 - [人脸年龄估计(Age-Estimation)](#Age-Estimation)
 - [人脸表情识别(Facial-Expression-Recognition)](#FER)
+- [Deepfakes](#Deepfakes)
 - [人体解析(Human Parsing)](#Human-Parsing)
 - [2D/3D人体姿态估计(2D/3D Human Pose Estimation)](#Human-Pose-Estimation)
+- [动物姿态估计(Animal Pose Estimation)](#Animal-Pose-Estimation)
+- [Human Volumetric Capture](#Human-Volumetric-Capture)
 - [场景文本识别(Scene Text Recognition)](#Scene-Text-Recognition)
+- [图像压缩(Image Compression)](#Image-Compression)
 - [模型压缩/剪枝/量化](#Model-Compression)
+- [知识蒸馏(Knowledge Distillation)](#KD)
 - [超分辨率(Super-Resolution)](#Super-Resolution)
 - [图像恢复(Image Restoration)](#Image-Restoration)
 - [图像补全(Image Inpainting)](#Image-Inpainting)
 - [图像编辑(Image Editing)](#Image-Editing)
+- [图像匹配(Image Matching)](#Image-Matching)
+- [图像融合(Image Blending)](#Image-Blending)
 - [反光去除(Reflection Removal)](#Reflection-Removal)
+- [3D点云分类(3D Point Clouds Classification)](#3D-C)
 - [3D目标检测(3D Object Detection)](#3D-Object-Detection)
 - [3D语义分割(3D Semantic Segmentation)](#3D-Semantic-Segmentation)
+- [3D全景分割(3D Panoptic Segmentation)](#3D-Panoptic-Segmentation)
 - [3D目标跟踪(3D Object Tracking)](#3D-Object-Tracking)
 - [3D点云配准(3D Point Cloud Registration)](#3D-PointCloud-Registration)
 - [3D点云补全(3D-Point-Cloud-Completion)](#3D-Point-Cloud-Completion)
+- [3D重建(3D Reconstruction)](#3D-Reconstruction)
 - [6D位姿估计(6D Pose Estimation)](#6D-Pose-Estimation)
 - [相机姿态估计(Camera Pose Estimation)](#Camera-Pose-Estimation)
 - [深度估计(Depth Estimation)](#Depth-Estimation)
@@ -62,7 +77,10 @@ CVPR 2021 中奖群已成立！已经收录的同学，可以添加微信：**CV
 - [视频插帧(Video Frame Interpolation)](#Video-Frame-Interpolation)
 - [视觉推理(Visual Reasoning)](#Visual-Reasoning)
 - [视图合成(Visual Synthesis)](#Visual-Synthesis)
+- [布局生成(Layout Generation)](#Layout-Generation)
 - [Domain Generalization](#Domain-Generalization)
+- [Open-Set Recognition](#Open-Set-Recognition)
+- [Adversarial Attack](#Adversarial-Attack)
 - ["人-物"交互(HOI)检测](#HOI)
 - [阴影去除(Shadow Removal)](#Shadow-Removal)
 - [虚拟试衣](#Virtual-Try-On)
@@ -115,6 +133,11 @@ CVPR 2021 中奖群已成立！已经收录的同学，可以添加微信：**CV
 <a name="NAS"></a>
 
 # NAS
+
+**DiNTS: Differentiable Neural Network Topology Search for 3D Medical Image Segmentation**
+
+- Paper(Oral): https://arxiv.org/abs/2103.15954
+- Code: None
 
 **HR-NAS: Searching Efficient High-Resolution Neural Architectures with Transformers**
 
@@ -179,6 +202,17 @@ CVPR 2021 中奖群已成立！已经收录的同学，可以添加微信：**CV
 <a name="GAN"></a>
 
 # GAN
+
+**Regularizing Generative Adversarial Networks under Limited Data**
+
+- Homepage: https://hytseng0509.github.io/lecam-gan/
+- Paper: https://faculty.ucmerced.edu/mhyang/papers/cvpr2021_gan_limited_data.pdf
+- Code: https://github.com/google/lecam-gan
+
+**Towards Real-World Blind Face Restoration with Generative Facial Prior**
+
+- Paper: https://arxiv.org/abs/2101.04061
+- Code: None
 
 **TediGAN: Text-Guided Diverse Image Generation and Manipulation**
 
@@ -318,6 +352,32 @@ CVPR 2021 中奖群已成立！已经收录的同学，可以添加微信：**CV
 
 # Visual Transformer
 
+**Variational Transformer Networks for Layout Generation**
+
+- Paper: https://arxiv.org/abs/2104.02416
+- Code: None
+
+**LoFTR: Detector-Free Local Feature Matching with Transformers**
+
+- Homepage: https://zju3dv.github.io/loftr/
+- Paper: https://arxiv.org/abs/2104.00680
+- Code: https://github.com/zju3dv/LoFTR
+
+**Rethinking Semantic Segmentation from a Sequence-to-Sequence Perspective with Transformers**
+
+- Paper: https://arxiv.org/abs/2012.15840
+- Code: https://github.com/fudan-zvg/SETR
+
+**Thinking Fast and Slow: Efficient Text-to-Visual Retrieval with Transformers**
+
+- Paper: https://arxiv.org/abs/2103.16553
+- Code: None
+
+**Transformer Tracking**
+
+- Paper: https://arxiv.org/abs/2103.15436
+- Code: https://github.com/chenxin-dlut/TransT
+
 **HR-NAS: Searching Efficient High-Resolution Neural Architectures with Transformers**
 
 - Paper(Oral): None
@@ -379,6 +439,44 @@ CVPR 2021 中奖群已成立！已经收录的同学，可以添加微信：**CV
 - Paper: https://arxiv.org/abs/2010.04925
 - Code: https://github.com/hiyouga/AMP-Regularizer
 
+<a name="SLAM"></a>
+
+# SLAM
+
+**Generalizing to the Open World: Deep Visual Odometry with Online Adaptation**
+
+- Paper: https://arxiv.org/abs/2103.15279
+- Code: https://arxiv.org/abs/2103.15279
+
+<a name="Long-Tailed"></a>
+
+# 长尾分布(Long-Tailed)
+
+**Distribution Alignment: A Unified Framework for Long-tail Visual Recognition**
+
+- Paper: None
+- Code: https://github.com/Megvii-BaseDetection/DisAlign
+
+**Adaptive Class Suppression Loss for Long-Tail Object Detection**
+
+- Paper: https://arxiv.org/abs/2104.00885
+- Code: https://github.com/CASIA-IVA-Lab/ACSL
+
+**Contrastive Learning based Hybrid Networks for Long-Tailed Image Classification**
+
+- Paper: https://arxiv.org/abs/2103.14267
+- Code: None
+
+<a name="DA"></a>
+
+# 数据增广(Data Augmentation)
+
+**Scale-aware Automatic Augmentation for Object Detection**
+
+- Paper: https://arxiv.org/abs/2103.17220
+
+- Code: https://github.com/Jia-Research-Lab/SA-AutoAug
+
 <a name="Un/Self-Supervised"></a>
 
 # 无监督/自监督(Un/Self-Supervised)
@@ -423,11 +521,53 @@ CVPR 2021 中奖群已成立！已经收录的同学，可以添加微信：**CV
 - Paper: https://arxiv.org/abs/2103.02193
 - Code: https://github.com/SHI-Labs/Semi-Supervised-Transfer-Learning
 
+<a name="Capsule-Network"></a>
+
+# 胶囊网络(Capsule Network)
+
+**Capsule Network is Not More Robust than Convolutional Network**
+
+- Paper: https://arxiv.org/abs/2103.15459
+- Code: None
+
 <a name="Object-Detection"></a>
 
 # 2D目标检测(Object Detection)
 
 ## 2D目标检测
+
+**Multi-Scale Aligned Distillation for Low-Resolution Detection**
+
+- Paper: https://jiaya.me/papers/ms_align_distill_cvpr21.pdf
+
+- Code: https://github.com/Jia-Research-Lab/MSAD
+
+**Adaptive Class Suppression Loss for Long-Tail Object Detection**
+
+- Paper: https://arxiv.org/abs/2104.00885
+- Code: https://github.com/CASIA-IVA-Lab/ACSL
+
+**VarifocalNet: An IoU-aware Dense Object Detector**
+
+- Paper(Oral): https://arxiv.org/abs/2008.13367
+
+- Code: https://github.com/hyz-xmaster/VarifocalNet
+
+**Scale-aware Automatic Augmentation for Object Detection**
+
+- Paper: https://arxiv.org/abs/2103.17220
+
+- Code: https://github.com/Jia-Research-Lab/SA-AutoAug
+
+**OTA: Optimal Transport Assignment for Object Detection**
+
+- Paper: https://arxiv.org/abs/2103.14259
+- Code: https://github.com/Megvii-BaseDetection/OTA
+
+**Distilling Object Detectors via Decoupled Features**
+
+- Paper: https://arxiv.org/abs/2103.14475
+- Code: https://github.com/ggjy/DeFeat.pytorch
 
 **Sparse R-CNN: End-to-End Object Detection with Learnable Proposals**
 
@@ -519,6 +659,11 @@ CVPR 2021 中奖群已成立！已经收录的同学，可以添加微信：**CV
 
 ## Few-Shot目标检测
 
+**Dense Relation Distillation with Context-aware Aggregation for Few-Shot Object Detection**
+
+- Paper: https://arxiv.org/abs/2103.17115
+- Code: https://github.com/hzhupku/DCNet 
+
 **Semantic Relation Reasoning for Shot-Stable Few-Shot Object Detection**
 
 - Paper: https://arxiv.org/abs/2103.01903
@@ -543,6 +688,19 @@ CVPR 2021 中奖群已成立！已经收录的同学，可以添加微信：**CV
 
 ## 单目标跟踪
 
+**Towards More Flexible and Accurate Object Tracking with Natural Language: Algorithms and Benchmark**
+
+- Homepage: https://sites.google.com/view/langtrackbenchmark/
+
+- Paper: https://arxiv.org/abs/2103.16746
+- Evaluation Toolkit: https://github.com/wangxiao5791509/TNL2K_evaluation_toolkit
+- Demo video: https://www.youtube.com/watch?v=7lvVDlkkff0&ab_channel=XiaoWang 
+
+**IoU Attack: Towards Temporally Coherent Black-Box Adversarial Attack for Visual Object Tracking**
+
+- Paper: https://arxiv.org/abs/2103.14938
+- Code: https://github.com/VISION-SJTU/IoUattack
+
 **Graph Attention Tracking**
 
 - Paper: https://arxiv.org/abs/2011.11204
@@ -565,12 +723,17 @@ CVPR 2021 中奖群已成立！已经收录的同学，可以添加微信：**CV
 
 - Code: https://github.com/594422814/TransformerTrack
 
-**TransT - Transformer Tracking**
+**Transformer Tracking**
 
-- Paper: None
+- Paper: https://arxiv.org/abs/2103.15436
 - Code: https://github.com/chenxin-dlut/TransT
 
 ## 多目标跟踪
+
+**Multiple Object Tracking with Correlation Learning**
+
+- Paper: https://arxiv.org/abs/2104.03541
+- Code: None
 
 **Probabilistic Tracklet Scoring and Inpainting for Multiple Object Tracking**
 
@@ -591,6 +754,21 @@ CVPR 2021 中奖群已成立！已经收录的同学，可以添加微信：**CV
 <a name="Semantic-Segmentation"></a>
 
 # 语义分割(Semantic Segmentation)
+
+**Progressive Semantic Segmentation**
+
+- Paper: https://arxiv.org/abs/2104.03778
+- Code: https://github.com/VinAIResearch/MagNet
+
+**Rethinking Semantic Segmentation from a Sequence-to-Sequence Perspective with Transformers**
+
+- Paper: https://arxiv.org/abs/2012.15840
+- Code: https://github.com/fudan-zvg/SETR
+
+**Bidirectional Projection Network for Cross Dimension Scene Understanding**
+
+- Paper(Oral): https://arxiv.org/abs/2103.14326
+- Code: https://github.com/wbhu/BPNet
 
 **Cross-Dataset Collaborative Learning for Semantic Segmentation**
 
@@ -619,6 +797,11 @@ CVPR 2021 中奖群已成立！已经收录的同学，可以添加微信：**CV
 
 ## 弱监督语义分割
 
+**Non-Salient Region Object Mining for Weakly Supervised Semantic Segmentation**
+
+- Paper: https://arxiv.org/abs/2103.14581
+- Code: None
+
 **BBAM: Bounding Box Attribution Map for Weakly Supervised Semantic and Instance Segmentation**
 
 - Paper: https://arxiv.org/abs/2103.08907
@@ -631,6 +814,11 @@ CVPR 2021 中奖群已成立！已经收录的同学，可以添加微信：**CV
 - Paper: https://arxiv.org/abs/2103.04705
 
 ## 域自适应语义分割
+
+**RobustNet: Improving Domain Generalization in Urban-Scene Segmentation via Instance Selective Whitening**
+
+- Paper: https://arxiv.org/abs/2103.15597
+- Code: https://github.com/shachoi/RobustNet
 
 **Coarse-to-Fine Domain Adaptive Semantic Segmentation with Photometric Alignment and Category-Center Regularization**
 
@@ -652,9 +840,30 @@ CVPR 2021 中奖群已成立！已经收录的同学，可以添加微信：**CV
 - Paper: https://arxiv.org/abs/2101.10979
 - Code: https://github.com/microsoft/ProDA
 
+## 视频语义分割
+
+**VSPW: A Large-scale Dataset for Video Scene Parsing in the Wild**
+
+- Homepage: https://www.vspwdataset.com/
+- Paper: https://www.vspwdataset.com/CVPR2021__miao.pdf
+- GitHub: https://github.com/sssdddwww2/vspw_dataset_download
+
 <a name="Instance-Segmentation"></a>
 
 # 实例分割(Instance Segmentation)
+
+**Multi-Scale Aligned Distillation for Low-Resolution Detection**
+
+- Paper: https://jiaya.me/papers/ms_align_distill_cvpr21.pdf
+
+- Code: https://github.com/Jia-Research-Lab/MSAD
+
+**Boundary IoU: Improving Object-Centric Image Segmentation Evaluation**
+
+- Homepage: https://bowenc0221.github.io/boundary-iou/
+- Paper: https://arxiv.org/abs/2103.16562
+
+- Code: https://github.com/bowenc0221/boundary-iou-api
 
 **Deep Occlusion-Aware Instance Segmentation with Overlapping BiLayers**
 
@@ -676,6 +885,11 @@ CVPR 2021 中奖群已成立！已经收录的同学，可以添加微信：**CV
 
 # 全景分割(Panoptic Segmentation)
 
+**Panoptic Segmentation Forecasting**
+
+- Paper: https://arxiv.org/abs/2104.03962
+- Code: https://github.com/nianticlabs/panoptic-forecasting
+
 **Fully Convolutional Networks for Panoptic Segmentation**
 
 - Paper: https://arxiv.org/abs/2012.00720
@@ -696,9 +910,25 @@ CVPR 2021 中奖群已成立！已经收录的同学，可以添加微信：**CV
 - Paper: https://arxiv.org/abs/2103.06030
 - Code: https://github.com/liuquande/FedDG-ELCFS
 
+## 3D医学图像分割
+
+**DiNTS: Differentiable Neural Network Topology Search for 3D Medical Image Segmentation**
+
+- Paper(Oral): https://arxiv.org/abs/2103.15954
+- Code: None
+
 <a name="IVOS"></a>
 
 # 交互式视频目标分割(Interactive-Video-Object-Segmentation)
+
+**Modular Interactive Video Object Segmentation: Interaction-to-Mask, Propagation and Difference-Aware Fusion**
+
+- Homepage: https://hkchengrex.github.io/MiVOS/
+
+- Paper: https://arxiv.org/abs/2103.07941
+
+- Code: https://github.com/hkchengrex/MiVOS
+- Demo: https://hkchengrex.github.io/MiVOS/video.html#partb
 
 **Learning to Recommend Frame for Interactive Video Object Segmentation in the Wild**
 
@@ -710,10 +940,26 @@ CVPR 2021 中奖群已成立！已经收录的同学，可以添加微信：**CV
 
 # 显著性检测(Saliency Detection)
 
+**Uncertainty-aware Joint Salient Object and Camouflaged Object Detection**
+
+- Paper: https://arxiv.org/abs/2104.02628
+
+- Code: https://github.com/JingZhang617/Joint_COD_SOD
+
 **Deep RGB-D Saliency Detection with Depth-Sensitive Attention and Automatic Multi-Modal Fusion**
 
 - Paper(Oral): https://arxiv.org/abs/2103.11832
 - Code: https://github.com/sunpeng1996/DSA2F
+
+<a name="Camouflaged-Object-Detection"></a>
+
+# 伪装物体检测(Camouflaged Object Detection)
+
+**Uncertainty-aware Joint Salient Object and Camouflaged Object Detection**
+
+- Paper: https://arxiv.org/abs/2104.02628
+
+- Code: https://github.com/JingZhang617/Joint_COD_SOD
 
 <a name="Person-Search"></a>
 
@@ -728,6 +974,11 @@ CVPR 2021 中奖群已成立！已经收录的同学，可以添加微信：**CV
 <a name="Video-Understanding"></a>
 
 # 视频理解/行为识别(Video Understanding)
+
+**No frame left behind: Full Video Action Recognition**
+
+- Paper: https://arxiv.org/abs/2103.15395
+- Code: None
 
 **Learning Salient Boundary Feature for Anchor-free Temporal Action Localization**
 
@@ -786,6 +1037,12 @@ CVPR 2021 中奖群已成立！已经收录的同学，可以添加微信：**CV
 
 # 人脸检测(Face Detection)
 
+**HLA-Face: Joint High-Low Adaptation for Low Light Face Detection**
+
+- Homepage: https://daooshee.github.io/HLA-Face-Website/
+- Paper: https://arxiv.org/abs/2104.01984
+- Code: https://github.com/daooshee/HLA-Face-Code
+
 **CRFace: Confidence Ranker for Model-Agnostic Face Detection Refinement**
 
 - Paper: https://arxiv.org/abs/2103.07017
@@ -832,6 +1089,15 @@ CVPR 2021 中奖群已成立！已经收录的同学，可以添加微信：**CV
 - Paper: https://arxiv.org/abs/2103.13372
 - Code: None
 
+<a name="Deepfakes"></a>
+
+# Deepfakes
+
+**MagDR: Mask-guided Detection and Reconstruction for Defending Deepfakes**
+
+- Paper: https://arxiv.org/abs/2103.14211
+- Code: None
+
 <a name="Human-Parsing"></a>
 
 # 人体解析(Human Parsing)
@@ -860,6 +1126,26 @@ CVPR 2021 中奖群已成立！已经收录的同学，可以添加微信：**CV
 - Paper: https://arxiv.org/abs/2011.14672
 - Code: https://github.com/Jeff-sjtu/HybrIK
 
+<a name="Animal-Pose-Estimation"></a>
+
+# 动物姿态估计(Animal Pose Estimation)
+
+**From Synthetic to Real: Unsupervised Domain Adaptation for Animal Pose Estimation**
+
+- Paper: https://arxiv.org/abs/2103.14843
+- Code: None
+
+<a name="Human-Volumetric-Capture"></a>
+
+# Human Volumetric Capture
+
+**POSEFusion: Pose-guided Selective Fusion for Single-view Human Volumetric Capture**
+
+- Homepage: http://www.liuyebin.com/posefusion/posefusion.html
+
+- Paper(Oral): https://arxiv.org/abs/2103.15331
+- Code: None
+
 <a name="Scene-Text-Recognition"></a>
 
 # 场景文本识别(Scene Text Recognition)
@@ -868,6 +1154,25 @@ CVPR 2021 中奖群已成立！已经收录的同学，可以添加微信：**CV
 
 - Paper: https://arxiv.org/abs/2103.06495
 - Code: https://github.com/FangShancheng/ABINet
+
+<a name="Image-Compression"></a>
+
+# 图像压缩
+
+**Checkerboard Context Model for Efficient Learned Image Compression**
+
+- Paper: https://arxiv.org/abs/2103.15306
+- Code: None
+
+**Slimmable Compressive Autoencoders for Practical Neural Image Compression**
+
+- Paper: https://arxiv.org/abs/2103.15726
+- Code: None
+
+**Attention-guided Image Compression by Deep Reconstruction of Compressive Sensed Saliency Skeleton**
+
+- Paper: https://arxiv.org/abs/2103.15368
+- Code: None
 
 <a name="Model-Compression"></a>
 
@@ -887,10 +1192,24 @@ CVPR 2021 中奖群已成立！已经收录的同学，可以添加微信：**CV
 
 ## 模型量化
 
+**Zero-shot Adversarial Quantization**
+
+- Paper(Oral): https://arxiv.org/abs/2103.15263
+- Code: https://git.io/Jqc0y
+
 **Learnable Companding Quantization for Accurate Low-bit Neural Networks**
 
 - Paper: https://arxiv.org/abs/2103.07156
 - Code: None
+
+<a name="KD"></a>
+
+# 知识蒸馏(Knowledge Distillation)
+
+**Distilling Object Detectors via Decoupled Features**
+
+- Paper: https://arxiv.org/abs/2103.14475
+- Code: https://github.com/ggjy/DeFeat.pytorch
 
 <a name="Super-Resolution"></a>
 
@@ -926,6 +1245,12 @@ CVPR 2021 中奖群已成立！已经收录的同学，可以添加微信：**CV
 
 # 图像补全(Image Inpainting)
 
+**TransFill: Reference-guided Image Inpainting by Merging Multiple Color and Spatial Transformations**
+
+- Homepage: https://yzhouas.github.io/projects/TransFill/index.html
+- Paper: https://arxiv.org/abs/2103.15982
+- Code: None
+
 **PD-GAN: Probabilistic Diverse GAN for Image Inpainting**
 
 - Paper: http://raywzy.com/
@@ -934,6 +1259,11 @@ CVPR 2021 中奖群已成立！已经收录的同学，可以添加微信：**CV
 <a name="Image-Editing"></a>
 
 # 图像编辑(Image Editing)
+
+**High-Fidelity and Arbitrary Face Editing**
+
+- Paper: https://arxiv.org/abs/2103.15814
+- Code: None
 
 **Anycost GANs for Interactive Image Synthesis and Editing**
 
@@ -955,6 +1285,32 @@ CVPR 2021 中奖群已成立！已经收录的同学，可以添加微信：**CV
 - Paper: None
 - Code: None
 
+<a name="Image-Matching"></a>
+
+# 图像匹配(Image Matcing)
+
+**LoFTR: Detector-Free Local Feature Matching with Transformers**
+
+- Homepage: https://zju3dv.github.io/loftr/
+- Paper: https://arxiv.org/abs/2104.00680
+- Code: https://github.com/zju3dv/LoFTR
+
+**Convolutional Hough Matching Networks**
+
+- Homapage: http://cvlab.postech.ac.kr/research/CHM/
+- Paper(Oral): https://arxiv.org/abs/2103.16831
+- Code: None
+
+<a name="Image-Blending"></a>
+
+# 图像融合(Image Blending)
+
+**Bridging the Visual Gap: Wide-Range Image Blending**
+
+- Paper: https://arxiv.org/abs/2103.15149
+
+- Code: https://github.com/julia0607/Wide-Range-Image-Blending
+
 <a name="Reflection-Removal"></a>
 
 # 反光去除(Reflection Removal)
@@ -964,9 +1320,28 @@ CVPR 2021 中奖群已成立！已经收录的同学，可以添加微信：**CV
 - Paper: https://arxiv.org/abs/2103.04273
 - Code: https://github.com/ChenyangLEI/flash-reflection-removal
 
+<a name="3D-C"></a>
+
+# 3D点云分类(3D Point Clouds Classification)
+
+**Equivariant Point Network for 3D Point Cloud Analysis**
+
+- Paper: https://arxiv.org/abs/2103.14147
+- Code: None
+
+**PAConv: Position Adaptive Convolution with Dynamic Kernel Assembling on Point Clouds**
+
+- Paper: https://arxiv.org/abs/2103.14635
+- Code: https://github.com/CVMI-Lab/PAConv
+
 <a name="3D-Object-Detection"></a>
 
 # 3D目标检测(3D Object Detection)
+
+**LiDAR R-CNN: An Efficient and Universal 3D Object Detector**
+
+- Paper: https://arxiv.org/abs/2103.15297
+- Code: https://github.com/tusimple/LiDAR_RCNN
 
 **M3DSSD: Monocular 3D Single Stage Object Detector**
 
@@ -993,6 +1368,11 @@ CVPR 2021 中奖群已成立！已经收录的同学，可以添加微信：**CV
 
 # 3D语义分割(3D Semantic Segmentation)
 
+**Bidirectional Projection Network for Cross Dimension Scene Understanding**
+
+- Paper(Oral): https://arxiv.org/abs/2103.14326
+- Code: https://github.com/wbhu/BPNet
+
 **Semantic Segmentation for Real Point Cloud Scenes via Bilateral Augmentation and Adaptive Fusion**
 
 - Paper: https://arxiv.org/abs/2103.07074
@@ -1010,6 +1390,15 @@ CVPR 2021 中奖群已成立！已经收录的同学，可以添加微信：**CV
 - Code: https://github.com/QingyongHu/SensatUrban
 - Dataset: https://github.com/QingyongHu/SensatUrban
 
+<a name="3D-Panoptic-Segmentation"></a>
+
+# 3D全景分割(3D Panoptic Segmentation)
+
+**Panoptic-PolarNet: Proposal-free LiDAR Point Cloud Panoptic Segmentation**
+
+- Paper: https://arxiv.org/abs/2103.14962
+- Code: https://github.com/edwardzhou130/Panoptic-PolarNet
+
 <a name="3D-Object-Tracking"></a>
 
 # 3D目标跟踪(3D Object Trancking)
@@ -1022,6 +1411,11 @@ CVPR 2021 中奖群已成立！已经收录的同学，可以添加微信：**CV
 <a name="3D-PointCloud-Registration"></a>
 
 # 3D点云配准(3D Point Cloud Registration)
+
+**ReAgent: Point Cloud Registration using Imitation and Reinforcement Learning**
+
+- Paper: https://arxiv.org/abs/2103.15231
+- Code: None
 
 **PointDSC: Robust Point Cloud Registration using Deep Spatial Consistency**
 
@@ -1041,6 +1435,17 @@ CVPR 2021 中奖群已成立！已经收录的同学，可以添加微信：**CV
 
 - Paper: https://arxiv.org/abs/2103.02535
 - Code: None
+
+<a name="3D-Reconstruction"></a>
+
+# 3D重建(3D Reconstruction)
+
+**NeuralRecon: Real-Time Coherent 3D Reconstruction from Monocular Video**
+
+- Homepage: https://zju3dv.github.io/neuralrecon/
+
+- Paper(Oral): https://arxiv.org/abs/2104.00681
+- Code: https://github.com/zju3dv/NeuralRecon
 
 <a name="6D-Pose-Estimation"></a>
 
@@ -1095,6 +1500,11 @@ CVPR 2021 中奖群已成立！已经收录的同学，可以添加微信：**CV
 
 # 对抗样本
 
+**LiBRe: A Practical Bayesian Approach to Adversarial Detection**
+
+- Paper: https://arxiv.org/abs/2103.14835
+- Code: None
+
 **Natural Adversarial Examples**
 
 - Paper: https://arxiv.org/abs/1907.07174
@@ -1103,6 +1513,11 @@ CVPR 2021 中奖群已成立！已经收录的同学，可以添加微信：**CV
 <a name="Image-Retrieval"></a>
 
 # 图像检索(Image Retrieval)
+
+**StyleMeUp: Towards Style-Agnostic Sketch-Based Image Retrieval**
+
+- Paper: https://arxiv.org/abs/2103.15706
+- COde: None
 
 **QAIR: Practical Query-efficient Black-Box Attacks for Image Retrieval**
 
@@ -1123,6 +1538,16 @@ CVPR 2021 中奖群已成立！已经收录的同学，可以添加微信：**CV
 <a name="Cross-modal-Retrieval"></a>
 
 # 跨模态检索(Cross-modal Retrieval)
+
+**Cross-Modal Center Loss for 3D Cross-Modal Retrieval**
+
+- Paper: https://arxiv.org/abs/2008.03561
+- Code: https://github.com/LongLong-Jing/Cross-Modal-Center-Loss 
+
+**Thinking Fast and Slow: Efficient Text-to-Visual Retrieval with Transformers**
+
+- Paper: https://arxiv.org/abs/2103.16553
+- Code: None
 
 **Revamping cross-modal recipe retrieval with hierarchical Transformers and self-supervised learning**
 
@@ -1178,19 +1603,61 @@ CVPR 2021 中奖群已成立！已经收录的同学，可以添加微信：**CV
 
 # 视图合成(View Synthesis)
 
+**Self-Supervised Visibility Learning for Novel View Synthesis**
+
+- Paper: https://arxiv.org/abs/2103.15407
+- Code: None
+
 **NeX: Real-time View Synthesis with Neural Basis Expansion**
 
 - Homepage: https://nex-mpi.github.io/
 - Paper(Oral): https://arxiv.org/abs/2103.05606
 
+<a name="Layout-Generation"></a>
+
+# Layout Generation
+
+**Variational Transformer Networks for Layout Generation**
+
+- Paper: https://arxiv.org/abs/2104.02416
+- Code: None
+
 <a name="Domain-Generalization"></a>
 
-# DomainGeneralization
+# Domain Generalization
+
+**RobustNet: Improving Domain Generalization in Urban-Scene Segmentation via Instance Selective Whitening**
+
+- Paper: https://arxiv.org/abs/2103.15597
+- Code: https://github.com/shachoi/RobustNet
+
+**Adaptive Methods for Real-World Domain Generalization**
+
+- Paper: https://arxiv.org/abs/2103.15796
+- Code: None
 
 **FSDR: Frequency Space Domain Randomization for Domain Generalization**
 
 - Paper: https://arxiv.org/abs/2103.02370
 - Code: None
+
+<a name="Open-Set-Recognition"></a>
+
+# Open-Set Recognition
+
+**Learning Placeholders for Open-Set Recognition**
+
+- Paper(Oral): https://arxiv.org/abs/2103.15086
+- Code: None
+
+<a name="Adversarial-Attack"></a>
+
+# Adversarial Attack
+
+**IoU Attack: Towards Temporally Coherent Black-Box Adversarial Attack for Visual Object Tracking**
+
+- Paper: https://arxiv.org/abs/2103.14938
+- Code: https://github.com/VISION-SJTU/IoUattack
 
 <a name="HOI"></a>
 
@@ -1239,6 +1706,12 @@ CVPR 2021 中奖群已成立！已经收录的同学，可以添加微信：**CV
 <a name="Datasets"></a>
 
 # 数据集(Datasets)
+
+**VSPW: A Large-scale Dataset for Video Scene Parsing in the Wild**
+
+- Homepage: https://www.vspwdataset.com/
+- Paper: https://www.vspwdataset.com/CVPR2021__miao.pdf
+- GitHub: https://github.com/sssdddwww2/vspw_dataset_download
 
 **Sewer-ML: A Multi-Label Sewer Defect Classification Dataset and Benchmark**
 
@@ -1297,6 +1770,93 @@ CVPR 2021 中奖群已成立！已经收录的同学，可以添加微信：**CV
 <a name="Others"></a>
 
 # 其他(Others)
+
+**Visually Informed Binaural Audio Generation without Binaural Audios**
+
+- Homepage: https://sheldontsui.github.io/projects/PseudoBinaural
+- Paper: None
+
+- GitHub: https://github.com/SheldonTsui/PseudoBinaural_CVPR2021
+- Demo: https://www.youtube.com/watch?v=r-uC2MyAWQc
+
+**Domain Consensus Clustering for Universal Domain Adaptation**
+
+- Paper: http://reler.net/papers/guangrui_cvpr2021.pdf
+- Code: https://github.com/Solacex/Domain-Consensus-Clustering 
+
+**Exploring intermediate representation for monocular vehicle pose estimation**
+
+- Paper: None
+- Code: https://github.com/Nicholasli1995/EgoNet
+
+**Tuning IR-cut Filter for Illumination-aware Spectral Reconstruction from RGB**
+
+- Paper(Oral): https://arxiv.org/abs/2103.14708
+- Code: None
+
+**Invertible Image Signal Processing**
+
+- Paper: https://arxiv.org/abs/2103.15061
+- Code: https://github.com/yzxing87/Invertible-ISP
+
+**Video Rescaling Networks with Joint Optimization Strategies for Downscaling and Upscaling**
+
+- Paper: https://arxiv.org/abs/2103.14858
+- Code: None
+
+**SceneGraphFusion: Incremental 3D Scene Graph Prediction from RGB-D Sequences**
+
+- Paper: https://arxiv.org/abs/2103.14898
+- Code: None
+
+**Embedding Transfer with Label Relaxation for Improved Metric Learning**
+
+- Paper: https://arxiv.org/abs/2103.14908
+- Code: None
+
+**Picasso: A CUDA-based Library for Deep Learning over 3D Meshes**
+
+- Paper: https://arxiv.org/abs/2103.15076 
+- Code: https://github.com/hlei-ziyan/Picasso
+
+**Meta-Mining Discriminative Samples for Kinship Verification**
+
+- Paper: https://arxiv.org/abs/2103.15108
+- Code: None
+
+**Cloud2Curve: Generation and Vectorization of Parametric Sketches**
+
+- Paper: https://arxiv.org/abs/2103.15536
+- Code: None
+
+**TrafficQA: A Question Answering Benchmark and an Efficient Network for Video Reasoning over Traffic Events**
+
+- Paper: https://arxiv.org/abs/2103.15538
+- Code: https://github.com/SUTDCV/SUTD-TrafficQA
+
+**Abstract Spatial-Temporal Reasoning via Probabilistic Abduction and Execution**
+
+- Homepage: http://wellyzhang.github.io/project/prae.html
+
+- Paper: https://arxiv.org/abs/2103.14230
+- Code: None
+
+**ACRE: Abstract Causal REasoning Beyond Covariation**
+
+- Homepage: http://wellyzhang.github.io/project/acre.html
+
+- Paper: https://arxiv.org/abs/2103.14232
+- Code: None
+
+**Confluent Vessel Trees with Accurate Bifurcations**
+
+- Paper: https://arxiv.org/abs/2103.14268
+- Code: None
+
+**Few-Shot Human Motion Transfer by Personalized Geometry and Texture Modeling**
+
+- Paper: https://arxiv.org/abs/2103.14338
+- Code: https://github.com/HuangZhiChao95/FewShotMotionTransfer
 
 **Neural Parts: Learning Expressive 3D Shape Abstractions with Invertible Neural Networks**
 
