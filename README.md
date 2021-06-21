@@ -50,6 +50,7 @@ CVPR 2021 中奖群已成立！已经收录的同学，可以添加微信：**CV
 - [人体解析(Human Parsing)](#Human-Parsing)
 - [2D/3D人体姿态估计(2D/3D Human Pose Estimation)](#Human-Pose-Estimation)
 - [动物姿态估计(Animal Pose Estimation)](#Animal-Pose-Estimation)
+- [手部姿态估计(Hand Pose Estimation)](#Hand-Pose-Estimation)
 - [Human Volumetric Capture](#Human-Volumetric-Capture)
 - [场景文本识别(Scene Text Recognition)](#Scene-Text-Recognition)
 - [图像压缩(Image Compression)](#Image-Compression)
@@ -101,6 +102,7 @@ CVPR 2021 中奖群已成立！已经收录的同学，可以添加微信：**CV
 - [阴影去除(Shadow Removal)](#Shadow-Removal)
 - [虚拟试衣(Virtual Try-On)](#Virtual-Try-On)
 - [标签噪声(Label Noise)](#Label-Noise)
+- [视频稳像(Video Stabilization)](#Video-Stabilization)
 - [数据集(Datasets)](#Datasets)
 - [其他(Others)](#Others)
 - [待添加(TODO)](#TO-DO)
@@ -109,6 +111,17 @@ CVPR 2021 中奖群已成立！已经收录的同学，可以添加微信：**CV
 <a name="Backbone"></a>
 
 # Backbone
+
+**HR-NAS: Searching Efficient High-Resolution Neural Architectures with Lightweight Transformers**
+
+- Paper(Oral): https://arxiv.org/abs/2106.06560
+
+- Code: https://github.com/dingmyu/HR-NAS
+
+**BCNet: Searching for Network Width with Bilaterally Coupled Network**
+
+- Paper: https://arxiv.org/abs/2105.10533
+- Code: None
 
 **Decoupled Dynamic Filter Networks**
 
@@ -168,6 +181,22 @@ CVPR 2021 中奖群已成立！已经收录的同学，可以添加微信：**CV
 
 # NAS
 
+**HR-NAS: Searching Efficient High-Resolution Neural Architectures with Lightweight Transformers**
+
+- Paper(Oral): https://arxiv.org/abs/2106.06560
+
+- Code: https://github.com/dingmyu/HR-NAS
+
+**BCNet: Searching for Network Width with Bilaterally Coupled Network**
+
+- Paper: https://arxiv.org/abs/2105.10533
+- Code: None
+
+**ViPNAS: Efficient Video Pose Estimation via Neural Architecture Search**
+
+- Paper: ttps://arxiv.org/abs/2105.10154
+- Code: None
+
 **Combined Depth Space based Architecture Search For Person Re-identification**
 
 - Paper: https://arxiv.org/abs/2104.04163
@@ -195,7 +224,7 @@ CVPR 2021 中奖群已成立！已经收录的同学，可以添加微信：**CV
 
 **Joint-DetNAS: Upgrade Your Detector with NAS, Pruning and Dynamic Distillation**
 
-- Paper: None
+- Paper:  https://arxiv.org/abs/2105.12971 
 - Code: None
 
 **Prioritized Architecture Sampling with Monto-Carlo Tree Search**
@@ -437,7 +466,7 @@ CVPR 2021 中奖群已成立！已经收录的同学，可以添加微信：**CV
 **4. HOTR: End-to-End Human-Object Interaction Detection with Transformers**
 
 - Paper: https://arxiv.org/abs/2104.13682
-- Code: None
+- Code: https://github.com/kakaobrain/HOTR
 
 **5. Multi-Modal Fusion Transformer for End-to-End Autonomous Driving**
 
@@ -478,7 +507,7 @@ CVPR 2021 中奖群已成立！已经收录的同学，可以添加微信：**CV
 
 **12. HR-NAS: Searching Efficient High-Resolution Neural Architectures with Transformers**
 
-- Paper(Oral): None
+- Paper(Oral):  https://arxiv.org/abs/2106.06560 
 - Code: https://github.com/dingmyu/HR-NAS
 
 **13. MIST: Multiple Instance Spatial Transformer**
@@ -545,7 +574,7 @@ CVPR 2021 中奖群已成立！已经收录的同学，可以添加微信：**CV
 
 **25. MaX-DeepLab: End-to-End Panoptic Segmentation With Mask Transformers**
 
-- Paper: MaX-DeepLab: End-to-End Panoptic Segmentation with Mask Transformers
+- Paper: https://openaccess.thecvf.com/content/CVPR2021/html/Wang_MaX-DeepLab_End-to-End_Panoptic_Segmentation_With_Mask_Transformers_CVPR_2021_paper.html
 - Code: None
 
 **26. SSTVOS: Sparse Spatiotemporal Transformers for Video Object Segmentation**
@@ -786,6 +815,30 @@ CVPR 2021 中奖群已成立！已经收录的同学，可以添加微信：**CV
 
 ## 2D目标检测
 
+**MobileDets: Searching for Object Detection Architectures for Mobile Accelerators**
+
+- Paper: https://openaccess.thecvf.com/content/CVPR2021/papers/Xiong_MobileDets_Searching_for_Object_Detection_Architectures_for_Mobile_Accelerators_CVPR_2021_paper.pdf
+- Code: https://github.com/tensorflow/models/tree/master/research/object_detection
+
+**Tracking Pedestrian Heads in Dense Crowd**
+
+- Homepage: https://project.inria.fr/crowdscience/project/dense-crowd-head-tracking/
+- Paper: https://openaccess.thecvf.com/content/CVPR2021/html/Sundararaman_Tracking_Pedestrian_Heads_in_Dense_Crowd_CVPR_2021_paper.html
+- Code1: https://github.com/Sentient07/HeadHunter
+- Code2: https://github.com/Sentient07/HeadHunter%E2%80%93T
+- Dataset: https://project.inria.fr/crowdscience/project/dense-crowd-head-tracking/
+
+**Dynamic Head: Unifying Object Detection Heads with Attentions**
+
+- Paper: https://arxiv.org/abs/2106.08322
+
+- Code: https://github.com/microsoft/DynamicHead
+
+**Joint-DetNAS: Upgrade Your Detector with NAS, Pruning and Dynamic Distillation**
+
+- Paper:  https://arxiv.org/abs/2105.12971 
+- Code: None
+
 **PSRR-MaxpoolNMS: Pyramid Shifted MaxpoolNMS with Relationship Recovery**
 
 - Paper: https://arxiv.org/abs/2105.12990
@@ -946,10 +999,15 @@ CVPR 2021 中奖群已成立！已经收录的同学，可以添加微信：**CV
 
 ## 旋转目标检测
 
+**Dense Label Encoding for Boundary Discontinuity Free Rotation Detection**
+
+- Paper: https://arxiv.org/abs/2011.09670
+- Code1: https://github.com/Thinklab-SJTU/DCL_RetinaNet_Tensorflow
+- Code2: https://github.com/yangxue0827/RotationDetection 
+
 **ReDet: A Rotation-equivariant Detector for Aerial Object Detection**
 
 - Paper: https://arxiv.org/abs/2103.07733
-
 - Code: https://github.com/csuhan/ReDet
 
 <a name="Object-Tracking"></a>
@@ -1006,6 +1064,14 @@ CVPR 2021 中奖群已成立！已经收录的同学，可以添加微信：**CV
 
 ## 多目标跟踪
 
+**Tracking Pedestrian Heads in Dense Crowd**
+
+- Homepage: https://project.inria.fr/crowdscience/project/dense-crowd-head-tracking/
+- Paper: https://openaccess.thecvf.com/content/CVPR2021/html/Sundararaman_Tracking_Pedestrian_Heads_in_Dense_Crowd_CVPR_2021_paper.html
+- Code1: https://github.com/Sentient07/HeadHunter
+- Code2: https://github.com/Sentient07/HeadHunter%E2%80%93T
+- Dataset: https://project.inria.fr/crowdscience/project/dense-crowd-head-tracking/
+
 **Multiple Object Tracking with Correlation Learning**
 
 - Paper: https://arxiv.org/abs/2104.03541
@@ -1030,6 +1096,13 @@ CVPR 2021 中奖群已成立！已经收录的同学，可以添加微信：**CV
 <a name="Semantic-Segmentation"></a>
 
 # 语义分割(Semantic Segmentation)
+
+**HyperSeg: Patch-wise Hypernetwork for Real-time Semantic Segmentation**
+
+- Homepage: https://nirkin.com/hyperseg/
+- Paper: https://openaccess.thecvf.com/content/CVPR2021/papers/Nirkin_HyperSeg_Patch-Wise_Hypernetwork_for_Real-Time_Semantic_Segmentation_CVPR_2021_paper.pdf
+
+- Code: https://github.com/YuvalNirkin/hyperseg
 
 **ViP-DeepLab: Learning Visual Perception with Depth-aware Video Panoptic Segmentation**
 
@@ -1104,9 +1177,15 @@ CVPR 2021 中奖群已成立！已经收录的同学，可以添加微信：**CV
 
 ## 半监督语义分割
 
+**Semi-Supervised Semantic Segmentation with Cross Pseudo Supervision**
+
+- Paper: https://arxiv.org/abs/2106.01226
+- Code: https://github.com/charlesCXK/TorchSemiSeg
+
 **Semi-supervised Domain Adaptation based on Dual-level Domain Mixing for Semantic Segmentation**
 
 - Paper: https://arxiv.org/abs/2103.04705
+- Code: None
 
 ## 域自适应语义分割
 
@@ -1218,6 +1297,12 @@ CVPR 2021 中奖群已成立！已经收录的同学，可以添加微信：**CV
 
 # 全景分割(Panoptic Segmentation)
 
+**Part-aware Panoptic Segmentation**
+
+- Paper: https://arxiv.org/abs/2106.06351
+- Code: https://github.com/tue-mps/panoptic_parts
+- Dataset: https://github.com/tue-mps/panoptic_parts
+
 **Exemplar-Based Open-Set Panoptic Segmentation Network**
 
 - Homepage: https://cv.snu.ac.kr/research/EOPSN/
@@ -1226,7 +1311,7 @@ CVPR 2021 中奖群已成立！已经收录的同学，可以添加微信：**CV
 
 **MaX-DeepLab: End-to-End Panoptic Segmentation With Mask Transformers**
 
-- Paper: MaX-DeepLab: End-to-End Panoptic Segmentation with Mask Transformers
+- Paper: https://openaccess.thecvf.com/content/CVPR2021/html/Wang_MaX-DeepLab_End-to-End_Panoptic_Segmentation_With_Mask_Transformers_CVPR_2021_paper.html
 - Code: None
 
 **Panoptic Segmentation Forecasting**
@@ -1341,6 +1426,11 @@ CVPR 2021 中奖群已成立！已经收录的同学，可以添加微信：**CV
 <a name="Re-ID"></a>
 
 # 行人重识别(Person Re-identification)
+
+**Generalizable Person Re-identification with Relevance-aware Mixture of Experts**
+
+- Paper: https://arxiv.org/abs/2105.09156
+- Code: None
 
 **Unsupervised Multi-Source Domain Adaptation for Person Re-Identification**
 
@@ -1519,6 +1609,11 @@ CVPR 2021 中奖群已成立！已经收录的同学，可以添加微信：**CV
 
 ## 2D 人体姿态估计
 
+**ViPNAS: Efficient Video Pose Estimation via Neural Architecture Search**
+
+- Paper: ttps://arxiv.org/abs/2105.10154
+- Code: None
+
 **When Human Pose Estimation Meets Robustness: Adversarial Algorithms and Benchmarks**
 
 - Paper: https://arxiv.org/abs/2105.06152
@@ -1572,6 +1667,16 @@ CVPR 2021 中奖群已成立！已经收录的同学，可以添加微信：**CV
 
 - Paper: https://arxiv.org/abs/2103.14843
 - Code: None
+
+<a name="Hand-Pose-Estimation"></a>
+
+# 手部姿态估计(Hand Pose Estimation)
+
+**Semi-Supervised 3D Hand-Object Poses Estimation with Interactions in Time**
+
+- Homepage: https://stevenlsw.github.io/Semi-Hand-Object/
+- Paper: https://arxiv.org/abs/2106.05266
+- Code: https://github.com/stevenlsw/Semi-Hand-Object
 
 <a name="Human-Volumetric-Capture"></a>
 
@@ -1963,6 +2068,11 @@ CVPR 2021 中奖群已成立！已经收录的同学，可以添加微信：**CV
 
 # 3D重建(3D Reconstruction)
 
+**Learning to Aggregate and Personalize 3D Face from In-the-Wild Photo Collection**
+
+- Paper: http://arxiv.org/abs/2106.07852
+- Code: https://github.com/TencentYoutuResearch/3DFaceReconstruction-LAP
+
 **Fully Understanding Generic Objects: Modeling, Segmentation, and Reconstruction**
 
 - Paper: https://arxiv.org/abs/2104.00858
@@ -2067,6 +2177,11 @@ CVPR 2021 中奖群已成立！已经收录的同学，可以添加微信：**CV
 <a name="Lane-Detection"></a>
 
 # 车道线检测(Lane Detection)
+
+**Focus on Local: Detecting Lane Marker from Bottom Up via Key Point**
+
+- Paper: https://arxiv.org/abs/2105.13680
+- Code: None
 
 **Keep your Eyes on the Lane: Real-time Attention-guided Lane Detection**
 
@@ -2258,6 +2373,11 @@ CVPR 2021 中奖群已成立！已经收录的同学，可以添加微信：**CV
 
 # Domain Generalization
 
+**Generalizable Person Re-identification with Relevance-aware Mixture of Experts**
+
+- Paper: https://arxiv.org/abs/2105.09156
+- Code: None
+
 **RobustNet: Improving Domain Generalization in Urban-Scene Segmentation via Instance Selective Whitening**
 
 - Paper: https://arxiv.org/abs/2103.15597
@@ -2374,9 +2494,43 @@ CVPR 2021 中奖群已成立！已经收录的同学，可以添加微信：**CV
 - Paper(Oral): https://arxiv.org/abs/2012.11854
 - Code: https://github.com/UCSC-REAL/CAL
 
+<a name="Video-Stabilization"></a>
+
+# 视频稳像(Video Stabilization)
+
+**Real-Time Selfie Video Stabilization**
+
+- Paper: https://openaccess.thecvf.com/content/CVPR2021/papers/Yu_Real-Time_Selfie_Video_Stabilization_CVPR_2021_paper.pdf
+
+- Code: https://github.com/jiy173/selfievideostabilization
+
 <a name="Datasets"></a>
 
 # 数据集(Datasets)
+
+**Tracking Pedestrian Heads in Dense Crowd**
+
+- Homepage: https://project.inria.fr/crowdscience/project/dense-crowd-head-tracking/
+- Paper: https://openaccess.thecvf.com/content/CVPR2021/html/Sundararaman_Tracking_Pedestrian_Heads_in_Dense_Crowd_CVPR_2021_paper.html
+- Code1: https://github.com/Sentient07/HeadHunter
+- Code2: https://github.com/Sentient07/HeadHunter%E2%80%93T
+- Dataset: https://project.inria.fr/crowdscience/project/dense-crowd-head-tracking/
+
+**Part-aware Panoptic Segmentation**
+
+- Paper: https://arxiv.org/abs/2106.06351
+- Code: https://github.com/tue-mps/panoptic_parts
+- Dataset: https://github.com/tue-mps/panoptic_parts
+
+**Learning High Fidelity Depths of Dressed Humans by Watching Social Media Dance Videos**
+
+- Homepage: https://www.yasamin.page/hdnet_tiktok
+
+- Paper(Oral): https://arxiv.org/abs/2103.03319
+
+- Code: https://github.com/yasaminjafarian/HDNet_TikTok
+
+- Dataset: https://www.yasamin.page/hdnet_tiktok#h.jr9ifesshn7v
 
 **High-Resolution Photorealistic Image Translation in Real-Time: A Laplacian Pyramid Translation Network**
 
@@ -2495,6 +2649,22 @@ CVPR 2021 中奖群已成立！已经收录的同学，可以添加微信：**CV
 <a name="Others"></a>
 
 # 其他(Others)
+
+**Fast and Accurate Model Scaling**
+
+- Paper: https://openaccess.thecvf.com/content/CVPR2021/html/Dollar_Fast_and_Accurate_Model_Scaling_CVPR_2021_paper.html
+
+- Code: https://github.com/facebookresearch/pycls
+
+**Learning High Fidelity Depths of Dressed Humans by Watching Social Media Dance Videos**
+
+- Homepage: https://www.yasamin.page/hdnet_tiktok
+
+- Paper(Oral): https://arxiv.org/abs/2103.03319
+
+- Code: https://github.com/yasaminjafarian/HDNet_TikTok
+
+- Dataset: https://www.yasamin.page/hdnet_tiktok#h.jr9ifesshn7v
 
 **Omnimatte: Associating Objects and Their Effects in Video**
 
